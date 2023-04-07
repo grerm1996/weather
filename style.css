@@ -1,0 +1,53 @@
+body, html {
+    margin: 0;
+    height: 100%;
+    background-color: rgb(255, 195, 195);
+}
+
+#overall {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#headercontainer {
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    padding-right: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+#forecast {
+    height: 30%;
+    display: flex;
+}
+
+h1 {
+    margin: 0px;
+}
+
+input, button {
+    height: 2em;
+    font-size: 18px;;
+}
+
+#temp, #state {
+    font-size: 30px;
+    margin: 5px;
+    font-weight: 700;
+}
+
+#humidity, #feelslike {
+    font-size: 21px;
+    margin: 3px;
+}
+
+h2 {
+    color:rgba(16, 26, 156, 0.719)
+}

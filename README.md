@@ -1,1 +1,1 @@
-# weather
+A weather forecast app, made for The Odin Project.
